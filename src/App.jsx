@@ -9,29 +9,30 @@ import Learn from "./pages/Learn"
 import United from "./pages/United"
 
 function App() {
-  // const routes = createBrowserRouter([
-  //   {
-  //     path: "/purpose",
-  //     element: <Purpose />
-  //   },
-  //   {
-  //     path: "/community",
-  //     element: <Community />
-  //   },
-  //   {
-  //     path: "/carrier",
-  //     element: <Carrier />
-  //   },
-  //   {
-  //     path: "/learn",
-  //     element: <Learn />
-  //   },
-  //   {
-  //     path: "/united",
-  //     element: <United />
-  //   },
-  // ])
+  const routes = createBrowserRouter([
+    {
+      path: "/",
+      element: <Purpose />
+    },
+    {
+      path: "/community",
+      element: <Community />
+    },
+    {
+      path: "/carrier",
+      element: <Carrier />
+    },
+    {
+      path: "/learn",
+      element: <Learn />
+    },
+    {
+      path: "/united",
+      element: <United />
+    },
+  ])
 
   return <RouterProvider router= { routes } />
 }
 
+export default App

@@ -3,7 +3,10 @@ import NavBar from '../components/NavBar'
 
 const Carrier = () => {
   return (
-    <NavBar />
+    <div className='w-[100vw] h-[100vh] bg-[#e4dfff]'>
+      <NavBar />
+      
+    </div>
   )
 }
 
