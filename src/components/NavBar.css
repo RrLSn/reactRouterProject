@@ -4,6 +4,7 @@
 nav{
     width: 98.7vw;
     height: 100px;
+    @apply flex justify-between p-[3rem]
 }
 
 nav a{

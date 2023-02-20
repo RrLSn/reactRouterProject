@@ -7,11 +7,16 @@ import Community from "./pages/Community"
 import Carrier from "./pages/Carrier"
 import Learn from "./pages/Learn"
 import United from "./pages/United"
+import Shares from "./pages/Shares"
 
 function App() {
   const routes = createBrowserRouter([
     {
       path: "/",
+      element: <Shares />
+    },
+    {
+      path: "/purpose",
       element: <Purpose />
     },
     {
