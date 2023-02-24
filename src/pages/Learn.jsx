@@ -3,7 +3,10 @@ import NavBar from '../components/NavBar'
 
 const Learn = () => {
   return (
-    <NavBar />
+    <div>
+    {/* <NavBar /> */}
+
+    </div>
   )
 }
 

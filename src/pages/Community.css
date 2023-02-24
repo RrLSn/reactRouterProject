@@ -2,5 +2,5 @@
     display: flex;
     flex-direction: column;
     place-items: center;
-    @apply w-[100%] h-[100vh] py-[3rem]
+    @apply w-[100%] h-[100vh] py-[3rem] pt-[6rem]
 }

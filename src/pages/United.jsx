@@ -1,9 +1,9 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
+// import NavBar from '../components/NavBar'
 
 const United = () => {
   return (
-    <NavBar />
+    <div className='w-[98.7vw] h-[100vh] bg-[#675cf1;]'></div>
   )
 }
 

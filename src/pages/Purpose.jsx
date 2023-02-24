@@ -7,7 +7,7 @@ const Purpose = () => {
     <div className='bg-[#e8d6d5] w-[98.7vw] h-[120vh] text-[#16002c]'>
       <NavBar />
 
-      <div className='flex mt-[3rem] px-[5rem] gap-[2rem] h-[90vh]'>
+      <div className='flex px-[5rem] gap-[2rem] h-[90vh] pt-[6rem]'>
         <div className='flex flex-col place-content-center'>
           <p className='text-[1.2rem] font-[700]'>Our purpose</p>
           <h1 className='text-7xl font-[700] my-[3rem] leading-[6rem]'>To build a world where together, we’re more than investors.</h1>

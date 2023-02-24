@@ -6,7 +6,7 @@ const Shares = () => {
     <div className='bg-[#dfdacd] w-[98.7vw] h-[130vh] text-[#16002c]'>
         <NavBar />
 
-        <div className='flex mt-[100px] px-[5rem] gap-[2rem]'>
+        <div className='flex pt-[5rem] px-[5rem] gap-[2rem]'>
             <div className='flex flex-col place-content-center'>
                 <h1 className='text-7xl font-[700]'>Invest. Learn. Grow.</h1>
                 <p className='text-[1.1rem] font-[500] w-[35rem] my-[3rem] leading-[2rem]'>Invest in over 1,000 stocks, learn from current investors and grow your market knowledge. All in one easy to use app.</p>

@@ -1,12 +1,12 @@
-/* *{
-    @apply m-0 p-0 box-border
-} */
 nav{
-    width: 98.7vw;
-    height: 100px;
-    @apply flex justify-between p-[3rem]
+    @apply flex justify-between items-center fixed w-[98.7vw] h-[5rem] top-0
 }
 
 nav a{
     font-weight: 500;
+}
+
+.wrapper.scrollEffect{
+    transition: all .3s linear;
+    @apply bg-[white]
 }
