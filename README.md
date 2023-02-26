@@ -5,7 +5,7 @@
 clone or download this respository and run with a local server of open 'index.html' with your favorite browser
 
 # Prequisite
-Your browser version must be recent for a better experience https://github.com/RrLSn/Counter_project.git
+Your browser version must be recent for a better experience https://github.com/RrLSn/reactRouterProject.git
 
 # Tech/framework used
 REACT VITE
