@@ -7,7 +7,7 @@ const NavBar = () => {
   window.addEventListener(
     'scroll',
     ()=> {
-      console.log(scrollY)
+      // console.log(scrollY)
       scrollY>=15? SetScrollEffect(true): SetScrollEffect(false)
     }
   )
